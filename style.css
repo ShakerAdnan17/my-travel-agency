@@ -1,0 +1,129 @@
+.header{
+    display: flex;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    list-style: none;
+    text-decoration: none;
+}
+/* nav li {
+   
+    margin-right: 50px;
+} */
+/* .nav-title{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+} */
+.nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Banner Section Styles */
+.banner-container{
+    background-image: url("Images/Group\ 13\ \(1\)\ \(1\).png");
+    position: absolute;
+width: 1170px;
+height: 500px;
+left: 135px;
+right: -135px;
+top: 146px;
+bottom: -146px;
+border-radius: 16px;
+}
+.banner-title{
+    position: absolute;
+width: 596px;
+height: 80px;
+left: 287px;
+right: -287px;
+top: 105px;
+color: rgb(255, 255, 255);
+font-size: 64px;
+font-weight: 800;
+}
+.banner-description{
+    position: absolute;
+width: 676px;
+height: 52px;
+left: 287px;
+right: -287px;
+top: 220px;
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+.banner-input{
+    display: flex;
+    position: relative;
+width: 800px;
+height: 84px;
+display: flex;
+flex-direction: row;
+padding: 16px;
+border-radius: 8px;
+margin-top: 320px;
+margin-left: 180px;
+background: rgba(255, 255, 255, 0.3);
+justify-content: center;
+align-items: center;
+}
+.banner-btn{
+    position: absolute;
+width: 130px;
+height: 30px;
+left: 630px;
+right: -610px;
+top: 30px;
+bottom: -16px;
+border-radius: 8px;
+color: rgb(255, 255, 255);
+text-align: center;
+padding-top: 15px;
+font-size: 16px;
+background: rgb(255, 84, 0);
+}
+.banner-field{
+position: absolute;
+width: 130px;
+height: 40px;
+left: 60px;
+right: -214px;
+top: 30px;
+bottom: -16px;
+border-radius: 8px;
+padding-left: 15px;
+border: none;
+background: rgb(255, 255, 255);
+}
+.banner-field2{
+position: absolute;
+width: 130px;
+height: 40px;
+left: 240px;
+right: -214px;
+top: 30px;
+bottom: -16px;
+border-radius: 8px;
+padding-left: 15px;
+border: none;
+background: rgb(255, 255, 255);
+}
+.banner-field3{
+position: absolute;
+width: 130px;
+height: 40px;
+left: 430px;
+right: -214px;
+top: 30px;
+bottom: -16px;
+border-radius: 8px;
+padding-left: 15px;
+border: none;
+background: rgb(255, 255, 255);
+}
