@@ -344,10 +344,9 @@ background: rgba(233, 68, 68, 0.05);
 
 
 /* Newsletter Section Styles */
-/* .newsletter-container {
+.newsletter-container {
     display: flex;
     justify-content: center;
-    max-width: 1280px;
     margin: 50px auto;
     gap: 20px;
 }
@@ -369,14 +368,34 @@ background: rgba(233, 68, 68, 0.05);
     top: 70px;
 }
 
-.news-input {
+.newsletter-input {
     width: 450px;
     height: 370px;
     border: 1px solid rgb(255, 84, 0);
     border-radius: 5px;
     padding: 15px;
 }
-
+.news-input{
+width: 393px;
+height: 52px;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+color: rgba(19, 19, 24, 0.3);
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+border: none;
+margin-bottom: 16px;
+padding-left: 20px;
+}
+.news-btn{
+width: 393px;
+height: 52px;
+border-radius: 8px;
+background: rgb(255, 84, 0);
+color: white;
+border: none;
+}
 .news-img {
     border-radius: 16px;
-} */
+}
